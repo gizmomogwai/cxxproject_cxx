@@ -144,7 +144,7 @@ describe Cxx::RubyDsl do
       headerC = 'lib2/lib2.h'
       sourceC = 'lib2/lib2.cpp'
       projectC = 'lib2/project.rb'
-      exe = 'output/basic.exe'
+      exe = 'output/basic'
       libB = 'output/libs/lib1.a'
       libC = 'output/libs/lib2.a'
 

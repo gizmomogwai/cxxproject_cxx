@@ -31,8 +31,8 @@ describe Cxx::RubyDsl do
   def test_on_level(base, outputdir)
     libOne = "#{outputdir}/libs/lib1.a"
     libTwo = "#{outputdir}/libs/lib2.a"
-    exe = "#{outputdir}/basic.exe"
-    exe2 = "#{outputdir}/debug.exe"
+    exe = "#{outputdir}/basic"
+    exe2 = "#{outputdir}/debug"
     files = [libOne,libTwo,exe,exe2]
     rm_r outputdir if File.directory?(outputdir)
     tasks = fresh_cxx(outputdir, base).all_tasks
