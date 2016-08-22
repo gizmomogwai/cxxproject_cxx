@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    cxx (0.1.17)
+      cxxproject
+      highline
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colored (1.2)
+    cxxproject (0.6.31)
+      colored
+      frazzle
+    frazzle (0.1.4)
+    highline (1.7.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cxx!
+
+BUNDLED WITH
+   1.12.5
